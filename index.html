@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Тріо «Байда»</title>
+<title>Тріо «Ба́йда»</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@500;700&display=swap">
 <style>
 :root{
@@ -21,6 +21,8 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"Onest",system-u
 .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(var(--bg-rgb),0) 82%,var(--bg) 100%)}
 .hero-in{position:relative;z-index:1;width:100%;max-width:420px;margin:-6px auto 0;padding:0 20px 18px;text-align:center}
 h1{font-family:"Unbounded","Onest",system-ui,sans-serif;font-weight:700;font-size:clamp(32px,10vw,42px);line-height:1.1;margin:0;letter-spacing:-.01em}
+.st{position:relative}
+.st::after{content:"´";position:absolute;left:50%;top:.05em;transform:translateX(-30%);font-size:.85em;font-weight:700;color:var(--ink)}
 .band{height:36px;background:var(--band) repeat-x center;background-size:28px 28px;border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);opacity:.95}
 .wrap{position:relative;overflow:hidden}
 .wrap::before{content:"";position:absolute;inset:0;background:var(--pat);background-size:55px 55px;opacity:.3;
@@ -49,8 +51,8 @@ h2{font-family:"Unbounded","Onest",system-ui,sans-serif;font-weight:700;font-siz
 </head>
 <body>
 <header class="hero">
-  <div class="photo" role="img" aria-label="Тріо «Байда» з інструментами"></div>
-  <div class="hero-in"><h1>Тріо «Байда»</h1></div>
+  <div class="photo" role="img" aria-label="Тріо «Ба́йда» з інструментами"></div>
+  <div class="hero-in"><h1>Тріо «Б<span class="st">а</span>йда»</h1></div>
 </header>
 <div class="band" aria-hidden="true"></div>
 
